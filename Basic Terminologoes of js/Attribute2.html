@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First JavaScript programme</title>
+    </head>
+<body>
+    <h1 id="python">Python</h1>
+    <button id="python" onclick="demo()">Click me</button>
+    <h1 id="java">java</h1>
+    <button id="java" onclick="demo1()">Click me</button>
+    <script>
+       function demo()
+       {
+        let y = document.getElementById("python").innerHTML ="Welcome to Python";
+        window.alert(y);
+       }
+       function demo1()
+       {
+        let y = document.getElementById("java").innerHTML ="Welcome to java";
+        window.alert(y);
+    }
+    
+    </script>
+</body>
+</html>
