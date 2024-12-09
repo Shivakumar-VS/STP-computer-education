@@ -1,17 +1,18 @@
-let grade = 87;
-if(grade>=90 && grade>=100){
-    grade = "A";
+let score = 87;
+let grade1;
+if(score>=90 && score>=100){
+    grade1 = "A";
 }
-else if(grade<=89 && grade>=70){
-    grade = "B";
+else if(score<=89 && score>=70){
+    grade1 = "B";
 }
-else if(grade >=60 && grade <=69){
-    grade = "C";
+else if(score >=60 && score <=69){
+    grade1 = "C";
 }
-else if(grade >=50 && grade <= 59){
-    grade = "D";
+else if(score >=50 && score <= 59){
+    grade1 = "D";
 }
 else{
-    grade = "F";
+    grade1 = "F";
 }
-console.log("according to your scores, your  grade was :" ,grade);
+console.log("according to your scores, your  grade was :" ,grade1);
